@@ -36,4 +36,4 @@ const logBmw = (dataBmw: iBmw): void => {
 };
 
 const myElement = document.getElementById("heading") as HTMLHeadingElement;
-console.log(myElement);
+console.log(myElement());

@@ -30,10 +30,3 @@ const carLog = (car: iCar): string => {
   return `Car name is ${car.name} produced in ${car.year}`;
 };
 console.log(carLog({ name: "BMW" }));
-
-const logBmw = (dataBmw: iBmw): void => {
-  console.log(dataBmw.name);
-};
-
-const myElement = document.getElementById("heading") as HTMLHeadingElement;
-console.log(myElement);

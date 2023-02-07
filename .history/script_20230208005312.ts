@@ -34,6 +34,3 @@ console.log(carLog({ name: "BMW" }));
 const logBmw = (dataBmw: iBmw): void => {
   console.log(dataBmw.name);
 };
-
-const myElement = document.getElementById("heading") as HTMLHeadingElement;
-console.log(myElement);
